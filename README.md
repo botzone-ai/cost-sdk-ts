@@ -1,5 +1,8 @@
 # @botzone/cost-sdk
 
+[![npm version](https://img.shields.io/npm/v/@botzone/cost-sdk.svg)](https://www.npmjs.com/package/@botzone/cost-sdk)
+[![license](https://img.shields.io/npm/l/@botzone/cost-sdk.svg)](https://github.com/botzone-ai/cost-sdk-ts/blob/main/LICENSE)
+
 Cost-tracking SDK for Anthropic, OpenAI, and Gemini clients. Wraps your existing
 LLM client and ships per-call usage to your Cost dashboard. Adds zero
 measurable latency to the host call.
