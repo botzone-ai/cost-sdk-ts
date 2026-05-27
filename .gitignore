@@ -1,0 +1,25 @@
+# Node
+node_modules/
+dist/
+.npm/
+*.tsbuildinfo
+
+# Python (defensive; this repo is TS-only)
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+
+# Env / secrets
+.env
+.env.local
+.env.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

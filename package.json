@@ -1,0 +1,70 @@
+{
+  "name": "@botzone/cost-sdk",
+  "version": "0.2.0",
+  "description": "Cost-tracking SDK for Anthropic, OpenAI, and Gemini clients",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botzone-ai/cost-sdk-ts.git"
+  },
+  "homepage": "https://github.com/botzone-ai/cost-sdk-ts#readme",
+  "bugs": {
+    "url": "https://github.com/botzone-ai/cost-sdk-ts/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "llm",
+    "cost-tracking",
+    "anthropic",
+    "openai",
+    "gemini"
+  ],
+  "author": "Botzone",
+  "license": "MIT",
+  "peerDependencies": {
+    "@anthropic-ai/sdk": ">=0.30.0",
+    "@google/generative-ai": ">=0.20.0",
+    "openai": ">=4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@anthropic-ai/sdk": {
+      "optional": true
+    },
+    "@google/generative-ai": {
+      "optional": true
+    },
+    "openai": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "@google/generative-ai": "^0.24.1",
+    "openai": "^4.95.0",
+    "typescript": "^5",
+    "vitest": "^4.1.2"
+  }
+}
