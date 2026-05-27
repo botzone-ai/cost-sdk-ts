@@ -33,7 +33,7 @@
     "url": "https://github.com/botzone-ai/cost-sdk-ts/issues"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "keywords": [
     "llm",

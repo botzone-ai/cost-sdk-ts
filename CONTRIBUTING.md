@@ -18,7 +18,7 @@ Thanks for taking an interest. This is the TypeScript SDK for Cost, an LLM cost 
 
 ## Development setup
 
-- Node 18+
+- Node 20+
 - `npm install`
 - `npm run build` compiles to `dist/`
 - `npm test` runs the vitest suite
